@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ app_name }}</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>body{background:#0b1418;color:#e9f4f2}.sidebar{min-height:100vh;background:#12242a}.accent{color:#55d6be}.panel{background:#13262d;border:1px solid #27434a}.muted{color:#9bb3b4}.stat{font-size:2rem;font-weight:700}</style>
+</head>
+<body>
+<div class="container-fluid"><div class="row">
+  <aside class="col-md-2 sidebar p-4"><div class="accent fw-bold mb-4">USB SENTINEL</div><div class="small muted mb-3">DEFENSIVE ENDPOINT SECURITY</div><nav class="nav flex-column gap-2"><a class="nav-link text-light" href="/">Dashboard</a><a class="nav-link text-light" href="/api/devices">Devices</a><a class="nav-link text-light" href="/api/events">USB Events</a><a class="nav-link text-light" href="/api/file-events">File Activity</a><a class="nav-link text-light" href="/api/alerts">Security Alerts</a><a class="nav-link text-light" href="/api/policies">Policies</a></nav></aside>
+  <main class="col-md-10 p-4"><div class="d-flex justify-content-between align-items-start"><div><div class="small muted">USB DEVICE CONTROL & MONITORING FRAMEWORK</div><h1 class="accent">Security Posture</h1><p class="muted">Version {{ version }} | Local monitoring console</p></div><span class="badge text-bg-warning">SIMULATION MODE</span></div>
+  <div class="row g-3 mt-2" id="stats"></div>
+  <div class="row g-3 mt-2"><div class="col-lg-7"><section class="panel p-3"><h5>Recent USB Events</h5><div class="table-responsive"><table class="table table-dark table-sm align-middle"><thead><tr><th>Time</th><th>Event</th><th>Device</th><th>Risk</th><th>Action</th></tr></thead><tbody id="events"><tr><td colspan="5" class="muted">Loading...</td></tr></tbody></table></div></section></div><div class="col-lg-5"><section class="panel p-3"><h5>Health</h5><p>Database <span class="badge text-bg-success">CONNECTED</span></p><p>USB Monitor <span class="badge text-bg-secondary">READY</span></p><p>File Monitor <span class="badge text-bg-secondary">READY</span></p><p>Enforcement <span class="badge text-bg-warning">SIMULATED</span></p></section></div></div>
+  </main>
+</div></div>
+<script>
+const labels={total_devices:'Total USB Devices',authorized_devices:'Authorized Devices',unauthorized_devices:'Unauthorized Devices',blocked_devices:'Blocked Devices',security_alerts:'Open Alerts',files_audited:'Files Audited'};
+async function load(){const stats=await (await fetch('/api/statistics')).json(); document.querySelector('#stats').innerHTML=Object.entries(labels).map(([key,label])=>`<div class="col-6 col-lg-2"><div class="panel p-3"><div class="muted small">${label}</div><div class="stat accent">${stats[key]}</div></div></div>`).join(''); const events=await (await fetch('/api/events')).json(); document.querySelector('#events').innerHTML=events.length?events.slice(0,8).map(e=>`<tr><td>${new Date(e.timestamp).toLocaleTimeString()}</td><td>${e.event_type}</td><td>${e.device}</td><td>${e.risk_score}</td><td>${e.action_taken}</td></tr>`).join(''):'<tr><td colspan="5" class="muted">No events recorded yet.</td></tr>'} load(); setInterval(load,15000);
+</script>
+</body></html>

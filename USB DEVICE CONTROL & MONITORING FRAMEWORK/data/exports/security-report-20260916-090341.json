@@ -1,0 +1,39 @@
+{
+  "generated_at": "2026-09-16T03:33:41.872304Z",
+  "executive_summary": {
+    "devices": 1,
+    "usb_events": 1,
+    "file_events": 2,
+    "open_alerts": 2
+  },
+  "devices": [
+    {
+      "name": "SanDisk Demo Storage",
+      "fingerprint": "demo-00000000000000000000000000000000000000000000000000000000000",
+      "authorization": "AUTHORIZED",
+      "risk_score": 10,
+      "demo": true
+    }
+  ],
+  "alerts": [
+    {
+      "severity": "HIGH",
+      "type": "EXECUTABLE_TRANSFER",
+      "description": "DEMO DATA: Potentially risky executable/script file copied to USB",
+      "status": "OPEN",
+      "demo": true
+    },
+    {
+      "severity": "HIGH",
+      "type": "LARGE_FILE_TRANSFER",
+      "description": "DEMO DATA: Potential Data Exfiltration Indicator",
+      "status": "OPEN",
+      "demo": true
+    }
+  ],
+  "limitations": [
+    "Filesystem events cannot always establish exact Windows copy direction; uncertain cases are labeled DIRECTION_UNCERTAIN.",
+    "Executable and large-transfer indicators are not proof of malware or data theft.",
+    "Simulation mode records intended actions without changing operating-system device state."
+  ]
+}

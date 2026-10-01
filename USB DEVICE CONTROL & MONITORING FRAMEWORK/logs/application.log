@@ -1,0 +1,163 @@
+2026-09-16 09:04:13,354 INFO __main__: Starting USB Device Control & Monitoring Framework 1.0.0
+2026-09-16 09:04:13,434 INFO werkzeug: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-09-16 09:04:13,434 INFO werkzeug: [33mPress CTRL+C to quit[0m
+2026-09-16 09:04:46,052 INFO __main__: Starting USB Device Control & Monitoring Framework 1.0.0
+2026-09-16 09:04:46,109 INFO werkzeug: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-09-16 09:04:46,110 INFO werkzeug: [33mPress CTRL+C to quit[0m
+2026-09-16 12:18:33,193 INFO __main__: Starting USB Device Control & Monitoring Framework 1.0.0
+2026-09-16 12:18:33,271 INFO werkzeug: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-09-16 12:18:33,272 INFO werkzeug: [33mPress CTRL+C to quit[0m
+2026-09-16 14:49:33,742 INFO werkzeug: 127.0.0.1 - - [16/Sep/2026 14:49:33] "GET /api/health HTTP/1.1" 200 -
+2026-09-16 14:52:12,949 INFO __main__: Starting USB Device Control & Monitoring Framework 1.0.0
+2026-09-16 14:52:12,980 INFO werkzeug: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-09-16 14:52:12,980 INFO werkzeug: [33mPress CTRL+C to quit[0m
+2026-09-16 14:54:03,263 INFO __main__: Starting USB Device Control & Monitoring Framework 1.0.0
+2026-09-16 14:54:03,303 INFO werkzeug: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-09-16 14:54:03,303 INFO werkzeug: [33mPress CTRL+C to quit[0m
+2026-09-16 14:54:51,606 INFO werkzeug: 127.0.0.1 - - [16/Sep/2026 14:54:51] "GET / HTTP/1.1" 200 -
+2026-09-16 14:54:52,019 INFO werkzeug: 127.0.0.1 - - [16/Sep/2026 14:54:52] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-09-16 14:54:52,111 INFO werkzeug: 127.0.0.1 - - [16/Sep/2026 14:54:52] "GET /api/statistics HTTP/1.1" 200 -
+2026-09-16 14:54:52,192 INFO werkzeug: 127.0.0.1 - - [16/Sep/2026 14:54:52] "GET /api/events HTTP/1.1" 200 -
+2026-09-16 14:55:06,869 INFO werkzeug: 127.0.0.1 - - [16/Sep/2026 14:55:06] "GET /api/statistics HTTP/1.1" 200 -
+2026-09-16 14:55:06,909 INFO werkzeug: 127.0.0.1 - - [16/Sep/2026 14:55:06] "GET /api/events HTTP/1.1" 200 -
+2026-09-16 14:55:21,866 INFO werkzeug: 127.0.0.1 - - [16/Sep/2026 14:55:21] "GET /api/statistics HTTP/1.1" 200 -
+2026-09-16 14:55:21,890 INFO werkzeug: 127.0.0.1 - - [16/Sep/2026 14:55:21] "GET /api/events HTTP/1.1" 200 -
+2026-09-16 14:55:36,877 INFO werkzeug: 127.0.0.1 - - [16/Sep/2026 14:55:36] "GET /api/statistics HTTP/1.1" 200 -
+2026-09-16 14:55:36,910 INFO werkzeug: 127.0.0.1 - - [16/Sep/2026 14:55:36] "GET /api/events HTTP/1.1" 200 -
+2026-09-16 14:55:51,873 INFO werkzeug: 127.0.0.1 - - [16/Sep/2026 14:55:51] "GET /api/statistics HTTP/1.1" 200 -
+2026-09-16 14:55:51,913 INFO werkzeug: 127.0.0.1 - - [16/Sep/2026 14:55:51] "GET /api/events HTTP/1.1" 200 -
+2026-09-16 14:56:06,868 INFO werkzeug: 127.0.0.1 - - [16/Sep/2026 14:56:06] "GET /api/statistics HTTP/1.1" 200 -
+2026-09-16 14:56:06,900 INFO werkzeug: 127.0.0.1 - - [16/Sep/2026 14:56:06] "GET /api/events HTTP/1.1" 200 -
+2026-09-16 14:56:21,867 INFO werkzeug: 127.0.0.1 - - [16/Sep/2026 14:56:21] "GET /api/statistics HTTP/1.1" 200 -
+2026-09-16 14:56:21,903 INFO werkzeug: 127.0.0.1 - - [16/Sep/2026 14:56:21] "GET /api/events HTTP/1.1" 200 -
+2026-09-16 14:56:36,866 INFO werkzeug: 127.0.0.1 - - [16/Sep/2026 14:56:36] "GET /api/statistics HTTP/1.1" 200 -
+2026-09-16 14:56:36,906 INFO werkzeug: 127.0.0.1 - - [16/Sep/2026 14:56:36] "GET /api/events HTTP/1.1" 200 -
+2026-09-16 14:56:43,519 INFO werkzeug: 127.0.0.1 - - [16/Sep/2026 14:56:43] "GET / HTTP/1.1" 200 -
+2026-09-16 14:56:43,586 INFO werkzeug: 127.0.0.1 - - [16/Sep/2026 14:56:43] "GET /api/statistics HTTP/1.1" 200 -
+2026-09-16 14:56:43,635 INFO werkzeug: 127.0.0.1 - - [16/Sep/2026 14:56:43] "GET /api/events HTTP/1.1" 200 -
+2026-09-16 14:56:45,379 INFO werkzeug: 127.0.0.1 - - [16/Sep/2026 14:56:45] "GET /api/devices HTTP/1.1" 200 -
+2026-09-16 14:56:51,507 INFO werkzeug: 127.0.0.1 - - [16/Sep/2026 14:56:51] "GET /api/events HTTP/1.1" 200 -
+2026-09-16 14:56:57,011 INFO werkzeug: 127.0.0.1 - - [16/Sep/2026 14:56:57] "GET /api/policies HTTP/1.1" 200 -
+2026-09-16 14:56:59,381 INFO werkzeug: 127.0.0.1 - - [16/Sep/2026 14:56:59] "GET /api/statistics HTTP/1.1" 200 -
+2026-09-16 14:56:59,417 INFO werkzeug: 127.0.0.1 - - [16/Sep/2026 14:56:59] "GET /api/events HTTP/1.1" 200 -
+2026-09-16 14:57:14,013 INFO werkzeug: 127.0.0.1 - - [16/Sep/2026 14:57:14] "GET /api/statistics HTTP/1.1" 200 -
+2026-09-16 14:57:14,060 INFO werkzeug: 127.0.0.1 - - [16/Sep/2026 14:57:14] "GET /api/events HTTP/1.1" 200 -
+2026-09-16 14:57:29,014 INFO werkzeug: 127.0.0.1 - - [16/Sep/2026 14:57:29] "GET /api/statistics HTTP/1.1" 200 -
+2026-09-16 14:57:29,078 INFO werkzeug: 127.0.0.1 - - [16/Sep/2026 14:57:29] "GET /api/events HTTP/1.1" 200 -
+2026-09-16 14:57:44,009 INFO werkzeug: 127.0.0.1 - - [16/Sep/2026 14:57:44] "GET /api/statistics HTTP/1.1" 200 -
+2026-09-16 14:57:44,059 INFO werkzeug: 127.0.0.1 - - [16/Sep/2026 14:57:44] "GET /api/events HTTP/1.1" 200 -
+2026-09-16 14:57:59,018 INFO werkzeug: 127.0.0.1 - - [16/Sep/2026 14:57:59] "GET /api/statistics HTTP/1.1" 200 -
+2026-09-16 14:57:59,080 INFO werkzeug: 127.0.0.1 - - [16/Sep/2026 14:57:59] "GET /api/events HTTP/1.1" 200 -
+2026-09-16 14:58:14,017 INFO werkzeug: 127.0.0.1 - - [16/Sep/2026 14:58:14] "GET /api/statistics HTTP/1.1" 200 -
+2026-09-16 14:58:14,072 INFO werkzeug: 127.0.0.1 - - [16/Sep/2026 14:58:14] "GET /api/events HTTP/1.1" 200 -
+2026-09-16 14:58:29,013 INFO werkzeug: 127.0.0.1 - - [16/Sep/2026 14:58:29] "GET /api/statistics HTTP/1.1" 200 -
+2026-09-16 14:58:29,065 INFO werkzeug: 127.0.0.1 - - [16/Sep/2026 14:58:29] "GET /api/events HTTP/1.1" 200 -
+2026-09-16 14:59:11,013 INFO werkzeug: 127.0.0.1 - - [16/Sep/2026 14:59:11] "GET /api/statistics HTTP/1.1" 200 -
+2026-09-16 14:59:11,043 INFO werkzeug: 127.0.0.1 - - [16/Sep/2026 14:59:11] "GET /api/events HTTP/1.1" 200 -
+2026-09-16 15:00:11,029 INFO werkzeug: 127.0.0.1 - - [16/Sep/2026 15:00:11] "GET /api/statistics HTTP/1.1" 200 -
+2026-09-16 15:00:11,092 INFO werkzeug: 127.0.0.1 - - [16/Sep/2026 15:00:11] "GET /api/events HTTP/1.1" 200 -
+2026-09-16 15:01:11,010 INFO werkzeug: 127.0.0.1 - - [16/Sep/2026 15:01:11] "GET /api/statistics HTTP/1.1" 200 -
+2026-09-16 15:01:11,049 INFO werkzeug: 127.0.0.1 - - [16/Sep/2026 15:01:11] "GET /api/events HTTP/1.1" 200 -
+2026-09-16 15:01:46,083 INFO werkzeug: 127.0.0.1 - - [16/Sep/2026 15:01:46] "GET /api/statistics HTTP/1.1" 200 -
+2026-09-16 15:01:46,128 INFO werkzeug: 127.0.0.1 - - [16/Sep/2026 15:01:46] "GET /api/events HTTP/1.1" 200 -
+2026-09-16 15:01:59,027 INFO werkzeug: 127.0.0.1 - - [16/Sep/2026 15:01:59] "GET /api/statistics HTTP/1.1" 200 -
+2026-09-16 15:01:59,122 INFO werkzeug: 127.0.0.1 - - [16/Sep/2026 15:01:59] "GET /api/events HTTP/1.1" 200 -
+2026-09-16 15:02:14,011 INFO werkzeug: 127.0.0.1 - - [16/Sep/2026 15:02:14] "GET /api/statistics HTTP/1.1" 200 -
+2026-09-16 15:02:14,068 INFO werkzeug: 127.0.0.1 - - [16/Sep/2026 15:02:14] "GET /api/events HTTP/1.1" 200 -
+2026-09-16 15:02:29,016 INFO werkzeug: 127.0.0.1 - - [16/Sep/2026 15:02:29] "GET /api/statistics HTTP/1.1" 200 -
+2026-09-16 15:02:29,067 INFO werkzeug: 127.0.0.1 - - [16/Sep/2026 15:02:29] "GET /api/events HTTP/1.1" 200 -
+2026-09-16 15:02:44,019 INFO werkzeug: 127.0.0.1 - - [16/Sep/2026 15:02:44] "GET /api/statistics HTTP/1.1" 200 -
+2026-09-16 15:02:44,074 INFO werkzeug: 127.0.0.1 - - [16/Sep/2026 15:02:44] "GET /api/events HTTP/1.1" 200 -
+2026-09-16 15:03:11,019 INFO werkzeug: 127.0.0.1 - - [16/Sep/2026 15:03:11] "GET /api/statistics HTTP/1.1" 200 -
+2026-09-16 15:03:11,094 INFO werkzeug: 127.0.0.1 - - [16/Sep/2026 15:03:11] "GET /api/events HTTP/1.1" 200 -
+2026-09-16 15:04:11,054 INFO werkzeug: 127.0.0.1 - - [16/Sep/2026 15:04:11] "GET /api/statistics HTTP/1.1" 200 -
+2026-09-16 15:04:11,129 INFO werkzeug: 127.0.0.1 - - [16/Sep/2026 15:04:11] "GET /api/events HTTP/1.1" 200 -
+2026-09-16 15:05:11,004 INFO werkzeug: 127.0.0.1 - - [16/Sep/2026 15:05:11] "GET /api/statistics HTTP/1.1" 200 -
+2026-09-16 15:05:11,051 INFO werkzeug: 127.0.0.1 - - [16/Sep/2026 15:05:11] "GET /api/events HTTP/1.1" 200 -
+2026-09-16 15:06:11,038 INFO werkzeug: 127.0.0.1 - - [16/Sep/2026 15:06:11] "GET /api/statistics HTTP/1.1" 200 -
+2026-09-16 15:06:11,155 INFO werkzeug: 127.0.0.1 - - [16/Sep/2026 15:06:11] "GET /api/events HTTP/1.1" 200 -
+2026-09-16 15:07:11,032 INFO werkzeug: 127.0.0.1 - - [16/Sep/2026 15:07:11] "GET /api/statistics HTTP/1.1" 200 -
+2026-09-16 15:07:11,121 INFO werkzeug: 127.0.0.1 - - [16/Sep/2026 15:07:11] "GET /api/events HTTP/1.1" 200 -
+2026-09-16 15:08:11,059 INFO werkzeug: 127.0.0.1 - - [16/Sep/2026 15:08:11] "GET /api/statistics HTTP/1.1" 200 -
+2026-09-16 15:08:11,160 INFO werkzeug: 127.0.0.1 - - [16/Sep/2026 15:08:11] "GET /api/events HTTP/1.1" 200 -
+2026-09-16 15:09:11,048 INFO werkzeug: 127.0.0.1 - - [16/Sep/2026 15:09:11] "GET /api/statistics HTTP/1.1" 200 -
+2026-09-16 15:09:11,157 INFO werkzeug: 127.0.0.1 - - [16/Sep/2026 15:09:11] "GET /api/events HTTP/1.1" 200 -
+2026-09-16 15:10:11,017 INFO werkzeug: 127.0.0.1 - - [16/Sep/2026 15:10:11] "GET /api/statistics HTTP/1.1" 200 -
+2026-09-16 15:10:11,133 INFO werkzeug: 127.0.0.1 - - [16/Sep/2026 15:10:11] "GET /api/events HTTP/1.1" 200 -
+2026-09-16 15:11:11,039 INFO werkzeug: 127.0.0.1 - - [16/Sep/2026 15:11:11] "GET /api/statistics HTTP/1.1" 200 -
+2026-09-16 15:11:11,138 INFO werkzeug: 127.0.0.1 - - [16/Sep/2026 15:11:11] "GET /api/events HTTP/1.1" 200 -
+2026-09-16 15:12:11,071 INFO werkzeug: 127.0.0.1 - - [16/Sep/2026 15:12:11] "GET /api/statistics HTTP/1.1" 200 -
+2026-09-16 15:12:11,142 INFO werkzeug: 127.0.0.1 - - [16/Sep/2026 15:12:11] "GET /api/events HTTP/1.1" 200 -
+2026-09-16 15:13:11,022 INFO werkzeug: 127.0.0.1 - - [16/Sep/2026 15:13:11] "GET /api/statistics HTTP/1.1" 200 -
+2026-09-16 15:13:11,079 INFO werkzeug: 127.0.0.1 - - [16/Sep/2026 15:13:11] "GET /api/events HTTP/1.1" 200 -
+2026-09-16 15:14:11,039 INFO werkzeug: 127.0.0.1 - - [16/Sep/2026 15:14:11] "GET /api/statistics HTTP/1.1" 200 -
+2026-09-16 15:14:11,144 INFO werkzeug: 127.0.0.1 - - [16/Sep/2026 15:14:11] "GET /api/events HTTP/1.1" 200 -
+2026-09-16 15:15:11,013 INFO werkzeug: 127.0.0.1 - - [16/Sep/2026 15:15:11] "GET /api/statistics HTTP/1.1" 200 -
+2026-09-16 15:15:11,085 INFO werkzeug: 127.0.0.1 - - [16/Sep/2026 15:15:11] "GET /api/events HTTP/1.1" 200 -
+2026-09-16 15:16:11,122 INFO werkzeug: 127.0.0.1 - - [16/Sep/2026 15:16:11] "GET /api/statistics HTTP/1.1" 200 -
+2026-09-16 15:16:11,184 INFO werkzeug: 127.0.0.1 - - [16/Sep/2026 15:16:11] "GET /api/events HTTP/1.1" 200 -
+2026-09-16 18:53:44,524 INFO werkzeug: 127.0.0.1 - - [16/Sep/2026 18:53:44] "GET /api/statistics HTTP/1.1" 200 -
+2026-09-16 18:53:44,631 INFO werkzeug: 127.0.0.1 - - [16/Sep/2026 18:53:44] "GET /api/events HTTP/1.1" 200 -
+2026-09-16 18:53:59,018 INFO werkzeug: 127.0.0.1 - - [16/Sep/2026 18:53:59] "GET /api/statistics HTTP/1.1" 200 -
+2026-09-16 18:53:59,079 INFO werkzeug: 127.0.0.1 - - [16/Sep/2026 18:53:59] "GET /api/events HTTP/1.1" 200 -
+2026-09-16 18:54:14,019 INFO werkzeug: 127.0.0.1 - - [16/Sep/2026 18:54:14] "GET /api/statistics HTTP/1.1" 200 -
+2026-09-16 18:54:14,078 INFO werkzeug: 127.0.0.1 - - [16/Sep/2026 18:54:14] "GET /api/events HTTP/1.1" 200 -
+2026-09-16 18:54:29,006 INFO werkzeug: 127.0.0.1 - - [16/Sep/2026 18:54:29] "GET /api/statistics HTTP/1.1" 200 -
+2026-09-16 18:54:29,057 INFO werkzeug: 127.0.0.1 - - [16/Sep/2026 18:54:29] "GET /api/events HTTP/1.1" 200 -
+2026-09-16 18:54:44,025 INFO werkzeug: 127.0.0.1 - - [16/Sep/2026 18:54:44] "GET /api/statistics HTTP/1.1" 200 -
+2026-09-16 18:54:44,111 INFO werkzeug: 127.0.0.1 - - [16/Sep/2026 18:54:44] "GET /api/events HTTP/1.1" 200 -
+2026-09-16 18:55:11,035 INFO werkzeug: 127.0.0.1 - - [16/Sep/2026 18:55:11] "GET /api/statistics HTTP/1.1" 200 -
+2026-09-16 18:55:11,095 INFO werkzeug: 127.0.0.1 - - [16/Sep/2026 18:55:11] "GET /api/events HTTP/1.1" 200 -
+2026-09-16 18:56:11,007 INFO werkzeug: 127.0.0.1 - - [16/Sep/2026 18:56:11] "GET /api/statistics HTTP/1.1" 200 -
+2026-09-16 18:56:11,042 INFO werkzeug: 127.0.0.1 - - [16/Sep/2026 18:56:11] "GET /api/events HTTP/1.1" 200 -
+2026-09-16 18:57:11,032 INFO werkzeug: 127.0.0.1 - - [16/Sep/2026 18:57:11] "GET /api/statistics HTTP/1.1" 200 -
+2026-09-16 18:57:11,102 INFO werkzeug: 127.0.0.1 - - [16/Sep/2026 18:57:11] "GET /api/events HTTP/1.1" 200 -
+2026-09-16 18:58:11,030 INFO werkzeug: 127.0.0.1 - - [16/Sep/2026 18:58:11] "GET /api/statistics HTTP/1.1" 200 -
+2026-09-16 18:58:11,108 INFO werkzeug: 127.0.0.1 - - [16/Sep/2026 18:58:11] "GET /api/events HTTP/1.1" 200 -
+2026-09-16 18:59:11,059 INFO werkzeug: 127.0.0.1 - - [16/Sep/2026 18:59:11] "GET /api/statistics HTTP/1.1" 200 -
+2026-09-16 18:59:11,122 INFO werkzeug: 127.0.0.1 - - [16/Sep/2026 18:59:11] "GET /api/events HTTP/1.1" 200 -
+2026-09-16 19:00:11,037 INFO werkzeug: 127.0.0.1 - - [16/Sep/2026 19:00:11] "GET /api/statistics HTTP/1.1" 200 -
+2026-09-16 19:00:11,112 INFO werkzeug: 127.0.0.1 - - [16/Sep/2026 19:00:11] "GET /api/events HTTP/1.1" 200 -
+2026-09-16 19:01:11,034 INFO werkzeug: 127.0.0.1 - - [16/Sep/2026 19:01:11] "GET /api/statistics HTTP/1.1" 200 -
+2026-09-16 19:01:11,137 INFO werkzeug: 127.0.0.1 - - [16/Sep/2026 19:01:11] "GET /api/events HTTP/1.1" 200 -
+2026-09-16 19:01:27,849 INFO werkzeug: 127.0.0.1 - - [16/Sep/2026 19:01:27] "GET /api/statistics HTTP/1.1" 200 -
+2026-09-16 19:01:27,909 INFO werkzeug: 127.0.0.1 - - [16/Sep/2026 19:01:27] "GET /api/events HTTP/1.1" 200 -
+2026-09-16 19:01:28,599 INFO werkzeug: 127.0.0.1 - - [16/Sep/2026 19:01:28] "GET /api/statistics HTTP/1.1" 200 -
+2026-09-16 19:01:28,691 INFO werkzeug: 127.0.0.1 - - [16/Sep/2026 19:01:28] "GET /api/events HTTP/1.1" 200 -
+2026-09-20 19:16:06,025 INFO __main__: Starting USB Device Control & Monitoring Framework 1.0.0
+2026-09-20 19:16:06,082 INFO werkzeug: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-09-20 19:16:06,082 INFO werkzeug: [33mPress CTRL+C to quit[0m
+2026-09-20 19:18:20,916 INFO __main__: Starting USB Device Control & Monitoring Framework 1.0.0
+2026-09-20 19:18:20,964 INFO werkzeug: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-09-20 19:18:20,965 INFO werkzeug: [33mPress CTRL+C to quit[0m
+2026-09-20 19:18:34,898 INFO werkzeug: 127.0.0.1 - - [20/Sep/2026 19:18:34] "GET / HTTP/1.1" 200 -
+2026-09-20 19:18:35,126 INFO werkzeug: 127.0.0.1 - - [20/Sep/2026 19:18:35] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-09-20 19:18:35,186 INFO werkzeug: 127.0.0.1 - - [20/Sep/2026 19:18:35] "GET /api/statistics HTTP/1.1" 200 -
+2026-09-20 19:18:35,246 INFO werkzeug: 127.0.0.1 - - [20/Sep/2026 19:18:35] "GET /api/events HTTP/1.1" 200 -
+2026-09-20 19:18:40,812 INFO werkzeug: 127.0.0.1 - - [20/Sep/2026 19:18:40] "GET / HTTP/1.1" 200 -
+2026-09-20 19:18:40,945 INFO werkzeug: 127.0.0.1 - - [20/Sep/2026 19:18:40] "GET /api/statistics HTTP/1.1" 200 -
+2026-09-20 19:18:40,983 INFO werkzeug: 127.0.0.1 - - [20/Sep/2026 19:18:40] "GET /api/events HTTP/1.1" 200 -
+2026-09-20 19:18:43,272 INFO werkzeug: 127.0.0.1 - - [20/Sep/2026 19:18:43] "GET /api/devices HTTP/1.1" 200 -
+2026-09-20 19:18:48,823 INFO werkzeug: 127.0.0.1 - - [20/Sep/2026 19:18:48] "GET /api/events HTTP/1.1" 200 -
+2026-09-20 19:18:53,738 INFO werkzeug: 127.0.0.1 - - [20/Sep/2026 19:18:53] "GET /api/file-events HTTP/1.1" 200 -
+2026-09-20 19:18:56,093 INFO werkzeug: 127.0.0.1 - - [20/Sep/2026 19:18:56] "GET /api/statistics HTTP/1.1" 200 -
+2026-09-20 19:18:56,175 INFO werkzeug: 127.0.0.1 - - [20/Sep/2026 19:18:56] "GET /api/events HTTP/1.1" 200 -
+2026-09-20 19:18:58,918 INFO werkzeug: 127.0.0.1 - - [20/Sep/2026 19:18:58] "GET /api/alerts HTTP/1.1" 200 -
+2026-09-20 19:19:03,787 INFO werkzeug: 127.0.0.1 - - [20/Sep/2026 19:19:03] "GET /api/policies HTTP/1.1" 200 -
+2026-09-20 19:19:10,947 INFO werkzeug: 127.0.0.1 - - [20/Sep/2026 19:19:10] "GET /api/statistics HTTP/1.1" 200 -
+2026-09-20 19:19:11,037 INFO werkzeug: 127.0.0.1 - - [20/Sep/2026 19:19:11] "GET /api/events HTTP/1.1" 200 -
+2026-09-20 19:19:25,941 INFO werkzeug: 127.0.0.1 - - [20/Sep/2026 19:19:25] "GET /api/statistics HTTP/1.1" 200 -
+2026-09-20 19:19:26,015 INFO werkzeug: 127.0.0.1 - - [20/Sep/2026 19:19:26] "GET /api/events HTTP/1.1" 200 -
+2026-09-20 19:19:40,941 INFO werkzeug: 127.0.0.1 - - [20/Sep/2026 19:19:40] "GET /api/statistics HTTP/1.1" 200 -
+2026-09-20 19:19:41,024 INFO werkzeug: 127.0.0.1 - - [20/Sep/2026 19:19:41] "GET /api/events HTTP/1.1" 200 -
+2026-10-01 20:32:14,480 INFO __main__: Starting USB Device Control & Monitoring Framework 1.0.0
+2026-10-01 20:32:14,537 INFO werkzeug: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-10-01 20:32:14,538 INFO werkzeug: [33mPress CTRL+C to quit[0m
